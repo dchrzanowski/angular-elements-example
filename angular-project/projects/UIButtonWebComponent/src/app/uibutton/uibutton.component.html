@@ -1,0 +1,7 @@
+<h3>UI Button</h3>
+<button
+    (click)="bgState = !bgState"
+    [class.bg-red]="bgState"
+    class="btn">
+    {{ bgState ? "I'm red now" : "Click Me!" }}
+</button>
