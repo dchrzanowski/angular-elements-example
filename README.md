@@ -1,4 +1,8 @@
-## Setup Explanation
+## Getting started
+Follow the **how this works** section [here](https://indepth.dev/angular-web-components-a-complete-guide/#how-this-works-).
+When running `ng generate application FirstWebComponent  --skipInstall=true` I ran `UIButtonWebComponent`. Additionally, I've deleted the `app.component.*` files since we don't need them (also cause bootstrapping errors). Made a button with some simple background changing logic as the `ui-button` ui selector.
+
+## Setup explanation
 The `server` folder contains a simple Node Express server for serving static content over http://localhost:3000 . On this static content we will serve our Angular Element.
 
 The `angular-project` folder contains the angular project in which we have a pre-made `ui-button` component. The component is located in the app folder under `projects/UIButtonWebComponent/src/app` that looks just like a normal angular app folder.
