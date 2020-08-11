@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["polyfills"],{
 
 /***/ "../../node_modules/document-register-element/build/document-register-element.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/grimscythe/Projects/ts/angular-elements/web-components/node_modules/document-register-element/build/document-register-element.js ***!
-  \**********************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************!*\
+  !*** /home/grimscythe/github/angular-elements-example/angular-project/node_modules/document-register-element/build/document-register-element.js ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14,9 +14,9 @@
 /***/ }),
 
 /***/ "../../node_modules/zone.js/dist/zone-evergreen.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/grimscythe/Projects/ts/angular-elements/web-components/node_modules/zone.js/dist/zone-evergreen.js ***!
-  \****************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/grimscythe/github/angular-elements-example/angular-project/node_modules/zone.js/dist/zone-evergreen.js ***!
+  \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3049,7 +3049,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/grimscythe/Projects/ts/angular-elements/web-components/projects/UIButtonWebComponent/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /home/grimscythe/github/angular-elements-example/angular-project/projects/UIButtonWebComponent/src/polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

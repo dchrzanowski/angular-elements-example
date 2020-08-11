@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
 /***/ "../../node_modules/css-loader/dist/cjs.js?!../../node_modules/postcss-loader/src/index.js?!../../node_modules/resolve-url-loader/index.js?!../../node_modules/sass-loader/dist/cjs.js?!./src/styles.scss":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /home/grimscythe/Projects/ts/angular-elements/web-components/node_modules/css-loader/dist/cjs.js??ref--14-1!/home/grimscythe/Projects/ts/angular-elements/web-components/node_modules/postcss-loader/src??embedded!/home/grimscythe/Projects/ts/angular-elements/web-components/node_modules/resolve-url-loader??ref--14-3!/home/grimscythe/Projects/ts/angular-elements/web-components/node_modules/sass-loader/dist/cjs.js??ref--14-4!./src/styles.scss ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/grimscythe/github/angular-elements-example/angular-project/node_modules/css-loader/dist/cjs.js??ref--14-1!/home/grimscythe/github/angular-elements-example/angular-project/node_modules/postcss-loader/src??embedded!/home/grimscythe/github/angular-elements-example/angular-project/node_modules/resolve-url-loader??ref--14-3!/home/grimscythe/github/angular-elements-example/angular-project/node_modules/sass-loader/dist/cjs.js??ref--14-4!./src/styles.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19,9 +19,9 @@ module.exports = exports;
 /***/ }),
 
 /***/ "../../node_modules/css-loader/dist/runtime/api.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/grimscythe/Projects/ts/angular-elements/web-components/node_modules/css-loader/dist/runtime/api.js ***!
-  \****************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/grimscythe/github/angular-elements-example/angular-project/node_modules/css-loader/dist/runtime/api.js ***!
+  \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -124,9 +124,9 @@ function toComment(sourceMap) {
 /***/ }),
 
 /***/ "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!***************************************************************************************************************************************!*\
-  !*** /home/grimscythe/Projects/ts/angular-elements/web-components/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \***************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************!*\
+  !*** /home/grimscythe/github/angular-elements-example/angular-project/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -439,7 +439,7 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/grimscythe/Projects/ts/angular-elements/web-components/projects/UIButtonWebComponent/src/styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! /home/grimscythe/github/angular-elements-example/angular-project/projects/UIButtonWebComponent/src/styles.scss */"./src/styles.scss");
 
 
 /***/ })

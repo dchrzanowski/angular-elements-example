@@ -107,7 +107,7 @@ UIButtonComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("bg-red", ctx.bgState);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.bgState ? "I'm red now" : "Click Me!", "\n");
-    } }, styles: [".btn[_ngcontent-%COMP%] {\n  background-color: #488af0;\n  color: white;\n  border: 1px solid #999;\n  padding: 1em 2em;\n  border-radius: 5px;\n  cursor: pointer;\n  width: 33%;\n  display: block;\n}\n\n.bg-red[_ngcontent-%COMP%] {\n  background-color: #ed6161;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlVJQnV0dG9uV2ViQ29tcG9uZW50L3NyYy9hcHAvdWlidXR0b24vdWlidXR0b24uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxzQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtFQUNBLGNBQUE7QUFDSjs7QUFDQTtFQUNJLHlCQUFBO0FBRUoiLCJmaWxlIjoiVUlCdXR0b25XZWJDb21wb25lbnQvc3JjL2FwcC91aWJ1dHRvbi91aWJ1dHRvbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM0ODhhZjA7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICM5OTk7XG4gICAgcGFkZGluZzogMWVtIDJlbTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHdpZHRoOiAzMyU7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG4uYmctcmVkIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZWQ2MTYxO1xufVxuIl19 */"] });
+    } }, styles: [".btn[_ngcontent-%COMP%] {\n  background-color: #488af0;\n  color: white;\n  border: 1px solid #999;\n  padding: 1em 2em;\n  border-radius: 5px;\n  cursor: pointer;\n  width: 33%;\n  display: block;\n}\n\n.bg-red[_ngcontent-%COMP%] {\n  background-color: #ed6161;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL1VJQnV0dG9uV2ViQ29tcG9uZW50L3NyYy9hcHAvdWlidXR0b24vdWlidXR0b24uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxzQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtFQUNBLGNBQUE7QUFDSjs7QUFDQTtFQUNJLHlCQUFBO0FBRUoiLCJmaWxlIjoicHJvamVjdHMvVUlCdXR0b25XZWJDb21wb25lbnQvc3JjL2FwcC91aWJ1dHRvbi91aWJ1dHRvbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM0ODhhZjA7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICM5OTk7XG4gICAgcGFkZGluZzogMWVtIDJlbTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHdpZHRoOiAzMyU7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG4uYmctcmVkIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZWQ2MTYxO1xufVxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](UIButtonComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -181,7 +181,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/grimscythe/Projects/ts/angular-elements/web-components/projects/UIButtonWebComponent/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/grimscythe/github/angular-elements-example/angular-project/projects/UIButtonWebComponent/src/main.ts */"./src/main.ts");
 
 
 /***/ })
