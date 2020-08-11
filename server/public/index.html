@@ -3,14 +3,55 @@
     <head>
         <meta charset="utf-8">
         <title>Angular Elements Test</title>
-        <script src="scripts/polyfills.js"></script>
-        <script src="scripts/vendor.js"></script>
-        <script src="scripts/runtime.js"></script>
-        <script src="scripts/styles.js"></script>
-        <script src="scripts/main.js"></script>
     </head>
     <body>
         <h1>Hiya</h1>
         <ui-button></ui-button>
+
+        <!-- <script src="scripts/runtime.js"></script>
+             <script src="scripts/polyfills.js"></script>
+             <script src="scripts/main.js"></script> -->
+
+        <script type="text/javascript">
+         var isDone = function(checker) {
+             for (var url in checker) {
+                 if (!checker[url])
+                     return false;
+             }
+             return true;
+         };
+         var loadJS = function(url, checker, onload, onerror){
+
+             var scriptTag = document.createElement('script');
+             scriptTag.src = url;
+
+             scriptTag.onload = onload;
+             scriptTag.onerror = onerror;
+             document.head.appendChild(scriptTag);
+         };
+         var loadMultipleJS = function(urls) {
+             var checker = {};
+             urls.forEach(function(url) {
+                 checker[url] = false;
+             });
+             urls.forEach(function(url) {
+                 loadJS(url, checker, function(data) {
+                     console.log("data: ", data);
+                     checker[url] = true;
+                     if (isDone(checker)) {
+                         console.log("All are done!!!");
+                     }
+                 }, function(error) {
+                     console.log("ERROR:", error);
+                 });
+             });
+         };
+
+         loadMultipleJS([
+             "scripts/runtime.js",
+             "scripts/polyfills.js",
+             "scripts/main.js"
+         ]);
+        </script>
     </body>
 </html>
